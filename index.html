@@ -4,15 +4,29 @@
   <title>Fui Aprovado</title>
 <html lang="pt-BR">
 
+
 <style>
-    body {
-        min-height: 100vh;
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        min-height: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    main {
-        flex-grow: 1;
+    .content {
+        flex: 1;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
     }
 </style>
 
@@ -267,7 +281,7 @@ body {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
+            align-items: center; 
         }
         .video {
             margin: 10px;
@@ -320,17 +334,11 @@ body {
                 <div class="video-text">O próximo pode ser você</div>
             </div>
         </div>
-    </div>
-<div class="wrapper">
-    <div class="content">
-        <!-- Conteúdo principal da sua página -->
-    </div>
     <footer>
-        <p style="color: white;">
+        <p>
             &copy; 2023 | Todos os direitos reservados
         </p>
-        <p style="color: white;">
-            <a href="https://aprovado.live/termos" target="_blank" style="color: white;">Termos de uso</a> | <a href="https://aprovado.live/privacidade" target="_blank" style="color: white;">Privacidade</a>
+        <p>
+            <a href="https://aprovado.live/termos" target="_blank">Termos de uso</a> | <a href="https://aprovado.live/privacidade" target="_blank">Privacidade</a>
         </p>
     </footer>
-</div>
