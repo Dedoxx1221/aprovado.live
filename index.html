@@ -3,7 +3,33 @@
 <head>
   <title>Fui Aprovado</title>
 <html lang="pt-BR">
-  
+
+  <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        flex: 1;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+</style>
+
+
  <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -22,17 +48,6 @@ src="https://www.facebook.com/tr?id=900199674589748&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
   
-<style>
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    main {
-        flex-grow: 1;
-    }
-</style>
   <meta charset="UTF-8">
   <style>
 
@@ -320,8 +335,11 @@ body {
             </div>
         </div>
     </div>
-    <footer style="background-color: black; color: white; text-align: center; padding: 20px;">
-      <bod
+<div class="wrapper">
+    <div class="content">
+        <!-- Conteúdo principal da sua página -->
+    </div>
+    <footer>
         <p>
             &copy; 2023 | Todos os direitos reservados
         </p>
@@ -329,5 +347,5 @@ body {
             <a href="https://aprovado.live/termos" target="_blank">Termos de uso</a> | <a href="https://aprovado.live/privacidade" target="_blank">Privacidade</a>
         </p>
     </footer>
-</body>
+</div>
 
